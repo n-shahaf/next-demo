@@ -1,2 +1,9 @@
 @import '../styles/vars.css';
 @import '../styles/reset.css';
+
+.main-container {
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}

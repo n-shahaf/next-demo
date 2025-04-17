@@ -74,6 +74,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 a:hover {
     text-decoration: none;
 }

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    li {
+        cursor: pointer;
+    }
+
+}
+
+a.active {
+    font-weight: bold;
+}

@@ -1,7 +1,8 @@
-import styles from "./page.module.css";
 
 export default function AboutPage() {
   return (
-    <div className={styles.page}>Static route</div>
+    <div>
+      <h1>Static Page</h1>
+    </div>
   )
 }
