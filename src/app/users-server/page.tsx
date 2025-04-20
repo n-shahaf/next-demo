@@ -1,10 +1,8 @@
 
-import { User } from '@/types'
+import { getUsers } from '@/services/userService'
 
-const data = await fetch('https://jsonplaceholder.typicode.com/users')
-const users: User[] = await data.json()
-
-export default function UsersServer() {
+export default async function UsersServer() {
+    const users = await getUsers()
 
     if (!users) return <div>Error: No users found</div>
     return (
